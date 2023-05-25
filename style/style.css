@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+   color: whitesmoke; 
+}
+
+h3{
+    color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+li{
+    margin: 10px;
+}
+
+p{
+    color: red;
+}
+
+.entering{
+    margin: auto;
+    background-image: url("https://d28cp5pdlws7or.cloudfront.net/images/headerv2.jpeg");
+    height: 400px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail img{
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#logo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:  768px)  {
+    body {
+        background:  #FF6347;
+        color: #FFF;
+    }
+}
